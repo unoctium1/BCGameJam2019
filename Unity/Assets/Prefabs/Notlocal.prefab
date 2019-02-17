@@ -9,43 +9,43 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1494315517265060}
+  m_RootGameObject: {fileID: 1662237142682408}
   m_IsPrefabAsset: 1
---- !u!1 &1494315517265060
+--- !u!1 &1662237142682408
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4290031783202470}
-  - component: {fileID: 114831016095558308}
+  - component: {fileID: 4933278862378098}
+  - component: {fileID: 114424800059031608}
   m_Layer: 0
-  m_Name: GH connector
+  m_Name: Notlocal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4290031783202470
+--- !u!4 &4933278862378098
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1494315517265060}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1662237142682408}
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114831016095558308
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+--- !u!114 &114424800059031608
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1494315517265060}
+  m_GameObject: {fileID: 1662237142682408}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a5f374aa5217d74ca279457483027d7, type: 3}
@@ -53,8 +53,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StreamIDs:
   - F0HK_WaWl
-  ServerURL: http://localhost:3000/api/v1/
-  MeshPrefab: {fileID: 1331569879318758, guid: 48604ef78453c59428d370598df1fcbc, type: 2}
+  ServerURL: https://hestia.speckle.works/api/v1/
+  MeshPrefab: {fileID: 1324144698297614, guid: 1c2045ce2d066c04e832dbfe4b936e66, type: 2}
   LinePrefab: {fileID: 1293004965568348, guid: 10275d92d9097904d8da55663233de26, type: 2}
   PointPrefab: {fileID: 1107968097332212, guid: 471fd5957b508b749ba1aeb918299d78,
     type: 2}
