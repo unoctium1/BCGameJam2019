@@ -52,9 +52,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StreamIDs:
-  - F0HK_WaWl
+  - 3EtyxtakY
   ServerURL: http://localhost:3000/api/v1/
-  MeshPrefab: {fileID: 1331569879318758, guid: 48604ef78453c59428d370598df1fcbc, type: 2}
+  MeshPrefab: {fileID: 1324144698297614, guid: 1c2045ce2d066c04e832dbfe4b936e66, type: 2}
   LinePrefab: {fileID: 1293004965568348, guid: 10275d92d9097904d8da55663233de26, type: 2}
   PointPrefab: {fileID: 1107968097332212, guid: 471fd5957b508b749ba1aeb918299d78,
     type: 2}
