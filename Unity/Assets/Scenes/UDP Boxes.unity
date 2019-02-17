@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465791, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63399e75681ca4166b1c9b0d02c15e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  port: 0
+  port: 6001
   mouseOverBox: 0
 --- !u!81 &499887691
 AudioListener:
@@ -265,84 +265,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 304126889}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &913106160
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 156534, guid: 267e61d35cc274125bd71e9a0d0925ed,
-    type: 2}
-  m_PrefabInternal: {fileID: 2045892951}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 913106161}
-  m_Layer: 0
-  m_Name: hoverBoxes
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &913106161
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 439276, guid: 267e61d35cc274125bd71e9a0d0925ed,
-    type: 2}
-  m_PrefabInternal: {fileID: 2045892951}
-  m_GameObject: {fileID: 913106160}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1304275728}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1304275726
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 190424, guid: 267e61d35cc274125bd71e9a0d0925ed,
-    type: 2}
-  m_PrefabInternal: {fileID: 2045892951}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1304275728}
-  - component: {fileID: 1304275727}
-  m_Layer: 0
-  m_Name: GhBoxReceiver
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1304275727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 11410578, guid: 267e61d35cc274125bd71e9a0d0925ed,
-    type: 2}
-  m_PrefabInternal: {fileID: 2045892951}
-  m_GameObject: {fileID: 1304275726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a16945e8685f481885a5739f4032c52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  port: 8050
-  lastReceivedPacket: 
-  boxprefab: {fileID: 107168, guid: 91cbb0e2c98ff46eb816278233c8d3ae, type: 2}
-  hoverBoxHolder: {fileID: 913106161}
---- !u!4 &1304275728
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 419266, guid: 267e61d35cc274125bd71e9a0d0925ed,
-    type: 2}
-  m_PrefabInternal: {fileID: 2045892951}
-  m_GameObject: {fileID: 1304275726}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 913106161}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1480950981
 GameObject:
@@ -623,5 +545,4 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 267e61d35cc274125bd71e9a0d0925ed, type: 2}
-  m_RootGameObject: {fileID: 1304275726}
   m_IsPrefabAsset: 0

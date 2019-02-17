@@ -9,7 +9,7 @@ using System.Threading;
 
 public class UDPContinousBoxes : MonoBehaviour
 {
-
+    
 
 	private string IP;  
 	public int port;  
