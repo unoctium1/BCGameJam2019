@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -113,6 +113,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &513386155
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 114046319085116578, guid: ce74b97499f715e4ba850ed81f0218c0,
+        type: 2}
+      propertyPath: StreamIDs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921409202954116, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046319085116578, guid: ce74b97499f715e4ba850ed81f0218c0,
+        type: 2}
+      propertyPath: LinePrefab
+      value: 
+      objectReference: {fileID: 1293004965568348, guid: 10275d92d9097904d8da55663233de26,
+        type: 2}
+    - target: {fileID: 114046319085116578, guid: ce74b97499f715e4ba850ed81f0218c0,
+        type: 2}
+      propertyPath: MeshPrefab
+      value: 
+      objectReference: {fileID: 1331569879318758, guid: 48604ef78453c59428d370598df1fcbc,
+        type: 2}
+    - target: {fileID: 114046319085116578, guid: ce74b97499f715e4ba850ed81f0218c0,
+        type: 2}
+      propertyPath: PointPrefab
+      value: 
+      objectReference: {fileID: 1107968097332212, guid: 471fd5957b508b749ba1aeb918299d78,
+        type: 2}
+    - target: {fileID: 114046319085116578, guid: ce74b97499f715e4ba850ed81f0218c0,
+        type: 2}
+      propertyPath: ServerURL
+      value: https://hestia.speckle.works/api/v1/
+      objectReference: {fileID: 0}
+    - target: {fileID: 114046319085116578, guid: ce74b97499f715e4ba850ed81f0218c0,
+        type: 2}
+      propertyPath: StreamIDs.Array.data[0]
+      value: F0HK_WaWl
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce74b97499f715e4ba850ed81f0218c0, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1415000576
 GameObject:
   m_ObjectHideFlags: 0
