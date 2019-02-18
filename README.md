@@ -11,14 +11,23 @@ The entropy/energy of the system increases as the user gets further through the 
 ==Installation==
 
 -Requirements: 
+
 --MongoDB
+
 --Redis
+
 --Rhino 6
+
 --Node/NPM
+
 -- Plugins for rhino 6:
+
 	--- Human
+	
 	--- Meshedit
+	
 	--- Speckle for Rhino
+	
 	--- gHowl
 	
 -- To launch: 
