@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33084460576285830}
   - component: {fileID: 23766641013928832}
   - component: {fileID: 114736603571672592}
+  - component: {fileID: 114642560702788858}
   m_Layer: 0
   m_Name: CustomMeshGenerator
   m_TagString: Untagged
@@ -84,6 +85,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1324144698297614}
   m_Mesh: {fileID: 0}
+--- !u!114 &114642560702788858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1324144698297614}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12eabecad8c927348858c8c9c885825a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: {fileID: 114744576155057966, guid: 330307bb83e7a514aa7a2a7d91679c12, type: 2}
 --- !u!114 &114736603571672592
 MonoBehaviour:
   m_ObjectHideFlags: 1

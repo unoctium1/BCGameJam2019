@@ -649,7 +649,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 7da5883d-eb96-4682-bf7f-3f49ecdcabb7
   projectName: BCGameJam
   organizationId: unoctium1

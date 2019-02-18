@@ -10,7 +10,7 @@ public class Goal : MonoBehaviour {
     private GameObject player;
 
     private Collider goalCol;
-    private float distanceFromGoal;
+    private float distanceFromGoal = 1000;
 
 	// Use this for initialization
 	void Start () {
