@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4335571185496030}
+  - component: {fileID: 114173455644777386}
   m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
@@ -194,3 +195,15 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114173455644777386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000259192193578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3630a22c9a74f8e4dbac5311e272ffe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speckleManager: {fileID: 0}

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/UDP-setup.unity
-    guid: 5cf6d1421ba50b5448204fddfcec5617
+    path: Assets/Scenes/0 - Setup.unity
+    guid: 5db9fdd56ce9ce64a8e16362126e3cd2
+  - enabled: 1
+    path: Assets/Scenes/1 - NonVR.unity
+    guid: 43a920986fcb7594cbf643b038abcc3c
   m_configObjects: {}
