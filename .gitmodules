@@ -1,0 +1,3 @@
+[submodule "Unity/Assets/SpeckleUnity"]
+	path = Unity/Assets/SpeckleUnity
+	url = https://github.com/speckleworks/SpeckleUnity.git
