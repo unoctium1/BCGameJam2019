@@ -8,31 +8,26 @@ This app allows users to visualize and explore an algorithmically generated laby
 
 The entropy/energy of the system increases as the user gets further through the labyrinth, and the grasshopper files can be further modified at runtime
 
-==Installation==
+## Installation
 
--Requirements: 
-
---MongoDB
-
---Redis
-
---Rhino 6
-
---Node/NPM
-
--- Plugins for rhino 6:
-
-	--- Human
+Requirements: 
+ - MongoDB
+ - Redis
+ - Rhino 6
+ - Node/NPM
+ - Plugins for rhino 6:
+ 	- Human
+	- Meshedit
+	- Speckle for Rhino
+	- gHowl
 	
-	--- Meshedit
-	
-	--- Speckle for Rhino
-	
-	--- gHowl
-	
--- To launch: 
+## To launch Local Environment 
 
---Start the mongo, redis, and bundled speckle server via node
---Launch the rhino environment attached
--- Start the unity executable
+- Start the mongo, redis, and bundled speckle server via node
+- Launch the rhino environment attached
+- Start the unity executable
 
+## To launch Hosted Environment 
+
+- Start the unity executable
+- Modifying and using custom hosted environments will be added in a later version
