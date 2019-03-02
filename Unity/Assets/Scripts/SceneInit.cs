@@ -8,7 +8,7 @@ public class SceneInit : MonoBehaviour {
     private UnitySpeckle speckleManager;
 
 	// Use this for initialization
-	void Awake () {
+	void Start () {
         ServerManager.instance.SetSpeckleDetails(speckleManager);
         SetCursorLock();
 	}
