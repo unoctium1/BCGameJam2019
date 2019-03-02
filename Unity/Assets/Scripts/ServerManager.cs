@@ -13,6 +13,10 @@ public class ServerManager : MonoBehaviour {
     [SerializeField]
     private string onlineauth;
 
+    [Header("Editor")]
+    [SerializeField]
+    private bool localEditor;
+
     private bool isLocal = false;
 
     public static ServerManager instance = null;
@@ -43,7 +47,19 @@ public class ServerManager : MonoBehaviour {
 
     public void SetSpeckleDetails(UnitySpeckle us)
     {
-        if (isLocal)
+        if (Application.isEditor)
+        {
+            SetDetailsHelper(us, localEditor);
+        }
+        else
+        {
+            SetDetailsHelper(us, isLocal);
+        }
+    }
+
+    private void SetDetailsHelper(UnitySpeckle us, bool toSet)
+    {
+        if (toSet)
         {
             us.ServerURL = localserver;
             us.StreamIDs.Add(localauth);
@@ -54,4 +70,5 @@ public class ServerManager : MonoBehaviour {
             us.StreamIDs.Add(onlineauth);
         }
     }
+        
 }

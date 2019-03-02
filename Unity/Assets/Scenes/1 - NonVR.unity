@@ -766,6 +766,11 @@ Prefab:
       propertyPath: m_Name
       value: ServerSetup
       objectReference: {fileID: 0}
+    - target: {fileID: 114223347856137866, guid: 47251148e469e6d4da914021e7081583,
+        type: 2}
+      propertyPath: localEditor
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47251148e469e6d4da914021e7081583, type: 2}
   m_IsPrefabAsset: 0
@@ -818,6 +823,31 @@ Prefab:
       propertyPath: distanceText
       value: 
       objectReference: {fileID: 1476591019}
+    - target: {fileID: 199698453797050880, guid: 330307bb83e7a514aa7a2a7d91679c12,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28996913157d68f4691430d8e6ee3db5, type: 2}
+    - target: {fileID: 199698453797050880, guid: 330307bb83e7a514aa7a2a7d91679c12,
+        type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 28996913157d68f4691430d8e6ee3db5, type: 2}
+    - target: {fileID: 198266832640957334, guid: 330307bb83e7a514aa7a2a7d91679c12,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198266832640957334, guid: 330307bb83e7a514aa7a2a7d91679c12,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198266832640957334, guid: 330307bb83e7a514aa7a2a7d91679c12,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.97142863
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 330307bb83e7a514aa7a2a7d91679c12, type: 2}
   m_IsPrefabAsset: 0
